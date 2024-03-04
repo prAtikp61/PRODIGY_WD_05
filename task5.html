@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        body{
+            background: linear-gradient(90deg, rgb(122, 167, 122), rgb(215, 100, 100));
+        }
+        .sub {
+            background: linear-gradient(180deg, hsl(209, 17%, 39%), hsl(42, 28%, 65%));
+            height: 600px;
+            position: relative;
+            left: 500px;
+            top: 100px;
+            border-radius: 30px;
+            width: 500px;
+            border: 10px solid black;
+        }
+
+        .sub1 {
+            position: absolute;
+            top: 30px;
+            left: 20px;
+            display: flex;
+            flex-direction: row;
+            width: fit-content;
+            text-align: center;
+        }
+
+        .in1 {
+            border-radius: 10px;
+            margin-right: 18px;
+            width: 300px;
+            height: 50px;
+            border: 3px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .bt1 {
+            width: 120px; 
+            height: 70px;
+            border-radius: 10px;
+            border: 5px solid black;
+            padding: 10px;
+        }
+
+        h1 {
+            text-align: start;
+            margin-left: 20px;
+        }
+
+        .xx {
+            margin-top: 150px;
+        }
+
+        .emote{
+         margin-top: -10px;
+            font-size: 10rem;
+            
+        }
+
+        .subb{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="sub">
+        <div class="sub1">
+            <input id="in1" class="in1" type="text" placeholder="ENTER CITY NAME">
+            <button id="bt1" type="submit" class="bt1">SEARCH</button>
+        </div>
+        <div class="subb">
+            <h1 id="w1" class="xx"></h1>
+            <h1 class="xy"> <span id="humidity"></span></h1>
+            <h1 class="xyz"><span id="temperature"></span></h1>
+            <p class="emote"></p>
+        </div>
+    </div>
+    <script src="task5.js" type="text/javascript"></script>
+
+</body>
+</html>
